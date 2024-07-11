@@ -1,0 +1,19 @@
+
+pool: mycomputeragent
+
+steps:
+- task: FortifyDASTAutomated@2
+  inputs:
+    FodConnection: 'ams_murali'
+    ReleaseOptions: '0'
+    ReleaseId: 1223480
+    AssessmentTypeId: 314
+    EntitlementId: 12263
+    EntitlementFrequencyType: 'Subscription'
+    OverrideScanSettings: '1'
+    Url: 'http://zero.webappsecurity.com/'
+    TimeZone: 'India Standard Time'
+    EnvironmentFacing: '0'
+    Scope: '0'
+    PolicyFailAction: '0'
+ 
